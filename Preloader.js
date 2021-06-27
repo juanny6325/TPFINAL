@@ -8,7 +8,7 @@ var Preloader = new Phaser.Class({
  preload()
  {
     this.load.image("logo", "images/logo.png");
-    this.load.image('fondo', 'images/Fondo.png');
+    this.load.image('fondo', 'images/fondo.png');
     this.load.image("torre", "images/Rock Tower.png")
     this.load.image('piso', 'images/platform.png');
     this.load.image("cubo", "images/Rock.png");
@@ -23,7 +23,7 @@ var Preloader = new Phaser.Class({
     this.load.image("ayuda","images/AYUDA.png")
     this.load.image("pausa","images/PAUSA.png")
     this.load.image("menuprincipal","images/menuprincipal.png")
-    this.load.image("puas","images/puas.png")
+    this.load.image("puas","images/Puas.png")
     this.load.image("continue","images/CONTINUAR.png")
     this.load.image("perdiste","images/GAMEOVER.png")
     this.load.image("reintentar","images/REINTENTAR.PNG")
